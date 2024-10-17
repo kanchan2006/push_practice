@@ -1,0 +1,6 @@
+2024-10-16 20:18:16.503 [warning] /home/vscode/.ssh/config: ENOENT: no such file or directory, open '/home/vscode/.ssh/config'
+2024-10-16 20:18:16.503 [info] Activation> Extension version: 0.98.0
+2024-10-16 20:18:18.742 [info] Looking for git repository
+2024-10-16 20:18:18.742 [info] Found 0 repositories during activation
+2024-10-16 20:18:18.742 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-16 20:18:18.743 [info] Registering git provider

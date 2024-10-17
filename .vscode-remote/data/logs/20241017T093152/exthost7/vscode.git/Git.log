@@ -1,0 +1,141 @@
+2024-10-17 10:48:31.847 [info] [main] ログ レベル: Info
+2024-10-17 10:48:31.847 [info] [main] Git の検証が検出されました: "git"
+2024-10-17 10:48:31.847 [info] [main] "git" から Git "2.46.2" を使用しています
+2024-10-17 10:48:31.847 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-17 10:48:31.847 [info] > git rev-parse --show-toplevel [29ms]
+2024-10-17 10:48:31.853 [info] > git rev-parse --git-dir --git-common-dir [26ms]
+2024-10-17 10:48:31.899 [info] [Model][openRepository] Opened repository: /home/vscode/progate_path/self_introduction_branch/self_introduction
+2024-10-17 10:48:31.921 [info] > git config --get commit.template [14ms]
+2024-10-17 10:48:31.928 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:48:31.934 [info] > git rev-parse --show-toplevel [21ms]
+2024-10-17 10:48:32.091 [info] > git rev-parse --show-toplevel [105ms]
+2024-10-17 10:48:32.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/branch-a refs/remotes/branch-a [163ms]
+2024-10-17 10:48:32.109 [info] > git status -z -uall [14ms]
+2024-10-17 10:48:32.111 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-17 10:48:32.111 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-10-17 10:48:32.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/branch-a refs/remotes/branch-a [26ms]
+2024-10-17 10:48:32.162 [info] > git config --get commit.template [21ms]
+2024-10-17 10:48:32.162 [info] > git rev-parse --show-toplevel [28ms]
+2024-10-17 10:48:32.166 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-17 10:48:32.168 [info] > git config --local branch.branch-a.vscode-merge-base [19ms]
+2024-10-17 10:48:32.168 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:48:32.182 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:48:32.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/branch-a refs/remotes/branch-a [11ms]
+2024-10-17 10:48:32.207 [info] > git reflog branch-a --grep-reflog=branch: Created from *. [31ms]
+2024-10-17 10:48:32.217 [info] > git status -z -uall [21ms]
+2024-10-17 10:48:32.227 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-10-17 10:48:32.233 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [27ms]
+2024-10-17 10:48:32.271 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [38ms]
+2024-10-17 10:48:32.271 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 10:48:32.271 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-17 10:48:32.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/branch-a refs/remotes/branch-a [21ms]
+2024-10-17 10:48:32.305 [info] > git config --local branch.branch-a.vscode-merge-base [8ms]
+2024-10-17 10:48:32.305 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:48:32.320 [info] > git reflog branch-a --grep-reflog=branch: Created from *. [6ms]
+2024-10-17 10:48:32.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-10-17 10:48:32.565 [info] > git check-ignore -v -z --stdin [95ms]
+2024-10-17 10:48:32.566 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [213ms]
+2024-10-17 10:48:32.566 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 10:48:32.566 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-17 10:48:33.114 [info] > git show --textconv :src/favorite_food.md [185ms]
+2024-10-17 10:48:33.115 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_food.md [182ms]
+2024-10-17 10:48:33.126 [info] > git cat-file -s 4c3ec3df67a8d6a19b8f097fba8010bdabb867a9 [7ms]
+2024-10-17 10:48:36.462 [info] > git config --local branch.branch-a.github-pr-owner-number [95ms]
+2024-10-17 10:48:36.462 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:48:36.469 [info] > git config --local branch.branch-a.remote [2ms]
+2024-10-17 10:48:36.469 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:48:36.502 [info] > git config --local branch.branch-a.merge [29ms]
+2024-10-17 10:48:36.502 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:51:26.732 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:51:26.733 [info] > git config --get commit.template [6ms]
+2024-10-17 10:51:26.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-17 10:51:26.744 [info] > git status -z -uall [6ms]
+2024-10-17 10:51:26.745 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-17 10:51:26.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-17 10:51:26.763 [info] > git config --local branch.main.github-pr-owner-number [7ms]
+2024-10-17 10:51:26.763 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:51:26.769 [info] > git config --local branch.main.vscode-merge-base [7ms]
+2024-10-17 10:51:26.769 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:51:26.774 [info] > git config --local branch.main.remote [7ms]
+2024-10-17 10:51:26.774 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:51:26.779 [info] > git reflog main --grep-reflog=branch: Created from *. [6ms]
+2024-10-17 10:51:26.786 [info] > git config --local branch.main.merge [8ms]
+2024-10-17 10:51:26.786 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:51:26.786 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-17 10:51:26.787 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 10:51:26.787 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-17 10:51:27.799 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:51:27.799 [info] > git config --get commit.template [6ms]
+2024-10-17 10:51:27.800 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-17 10:51:27.812 [info] > git status -z -uall [7ms]
+2024-10-17 10:51:27.812 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-17 10:51:28.016 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_food.md [2ms]
+2024-10-17 10:51:28.023 [info] > git cat-file -s 4c3ec3df67a8d6a19b8f097fba8010bdabb867a9 [2ms]
+2024-10-17 10:51:28.274 [info] > git show --textconv :src/favorite_food.md [2ms]
+2024-10-17 10:53:38.281 [info] > git show --textconv :src/favorite_drink.md [6ms]
+2024-10-17 10:53:38.282 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_drink.md [2ms]
+2024-10-17 10:53:38.288 [info] > git cat-file -s 0ac8b2499d71d3c2516bcd6000f0b553ceca35e9 [1ms]
+2024-10-17 10:53:42.547 [info] > git show --textconv :src/favorite_food.md [7ms]
+2024-10-17 10:53:42.549 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_food.md [1ms]
+2024-10-17 10:53:42.554 [info] > git cat-file -s 4c3ec3df67a8d6a19b8f097fba8010bdabb867a9 [2ms]
+2024-10-17 10:54:02.904 [info] > git show --textconv :src/favorite_drink.md [6ms]
+2024-10-17 10:54:02.904 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_drink.md [1ms]
+2024-10-17 10:54:02.910 [info] > git cat-file -s 0ac8b2499d71d3c2516bcd6000f0b553ceca35e9 [2ms]
+2024-10-17 10:54:27.476 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:54:27.476 [info] > git config --get commit.template [5ms]
+2024-10-17 10:54:27.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-17 10:54:27.487 [info] > git status -z -uall [6ms]
+2024-10-17 10:54:27.488 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-17 10:54:32.502 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:54:32.503 [info] > git config --get commit.template [6ms]
+2024-10-17 10:54:32.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-17 10:54:32.513 [info] > git status -z -uall [5ms]
+2024-10-17 10:54:32.515 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-17 10:54:36.388 [info] > git show --textconv :src/favorite_food.md [6ms]
+2024-10-17 10:54:36.390 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_food.md [3ms]
+2024-10-17 10:54:36.396 [info] > git cat-file -s 4c3ec3df67a8d6a19b8f097fba8010bdabb867a9 [2ms]
+2024-10-17 10:54:38.724 [info] > git show --textconv :src/favorite_drink.md [6ms]
+2024-10-17 10:54:38.725 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_drink.md [2ms]
+2024-10-17 10:54:38.730 [info] > git cat-file -s 0ac8b2499d71d3c2516bcd6000f0b553ceca35e9 [1ms]
+2024-10-17 10:55:28.678 [info] > git config --get commit.template [2ms]
+2024-10-17 10:55:28.683 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:55:28.685 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-17 10:55:28.695 [info] > git status -z -uall [6ms]
+2024-10-17 10:55:28.696 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-17 10:55:29.733 [info] > git config --get commit.template [2ms]
+2024-10-17 10:55:29.737 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:55:29.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-17 10:55:29.747 [info] > git status -z -uall [5ms]
+2024-10-17 10:55:29.749 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-17 10:55:29.952 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_drink.md [1ms]
+2024-10-17 10:55:29.958 [info] > git cat-file -s a6e3c1000c9983509e6475d7f6f41934af5582e5 [2ms]
+2024-10-17 10:55:30.072 [info] > git show --textconv :src/favorite_drink.md [2ms]
+2024-10-17 10:56:00.063 [info] > git config --get commit.template [2ms]
+2024-10-17 10:56:00.067 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:56:00.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-17 10:56:00.078 [info] > git status -z -uall [5ms]
+2024-10-17 10:56:00.079 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-17 10:56:00.087 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-10-17 10:56:00.087 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:56:00.092 [info] > git config --local branch.main.remote [1ms]
+2024-10-17 10:56:00.092 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:56:00.098 [info] > git config --local branch.main.merge [2ms]
+2024-10-17 10:56:00.098 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 10:56:01.118 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:56:01.118 [info] > git config --get commit.template [5ms]
+2024-10-17 10:56:01.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-17 10:56:01.129 [info] > git status -z -uall [5ms]
+2024-10-17 10:56:01.131 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-17 10:56:01.353 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_drink.md [2ms]
+2024-10-17 10:56:01.358 [info] > git cat-file -s a6e3c1000c9983509e6475d7f6f41934af5582e5 [1ms]
+2024-10-17 10:56:01.491 [info] > git show --textconv :src/favorite_drink.md [2ms]
+2024-10-17 10:59:52.342 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 10:59:52.344 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-17 10:59:52.355 [info] > git status -z -uall [7ms]
+2024-10-17 10:59:52.355 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-17 10:59:52.575 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_drink.md [2ms]
+2024-10-17 10:59:52.580 [info] > git cat-file -s 0ac8b2499d71d3c2516bcd6000f0b553ceca35e9 [1ms]
+2024-10-17 10:59:52.698 [info] > git show --textconv :src/favorite_drink.md [1ms]
+2024-10-17 11:00:23.454 [info] > git show --textconv :src/favorite_food.md [6ms]
+2024-10-17 11:00:23.454 [info] > git ls-files --stage -- /home/vscode/progate_path/self_introduction_branch/self_introduction/src/favorite_food.md [1ms]
+2024-10-17 11:00:23.460 [info] > git cat-file -s 4c3ec3df67a8d6a19b8f097fba8010bdabb867a9 [2ms]

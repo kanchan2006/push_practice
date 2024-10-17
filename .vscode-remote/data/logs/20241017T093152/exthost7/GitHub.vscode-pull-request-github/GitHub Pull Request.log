@@ -1,0 +1,26 @@
+2024-10-17 10:48:33.717 [warning] /home/vscode/.ssh/config: ENOENT: no such file or directory, open '/home/vscode/.ssh/config'
+2024-10-17 10:48:33.717 [info] Activation> Extension version: 0.98.0
+2024-10-17 10:48:36.358 [info] Looking for git repository
+2024-10-17 10:48:36.358 [info] Found 0 repositories during activation
+2024-10-17 10:48:36.358 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-17 10:48:36.361 [info] Registering git provider
+2024-10-17 10:48:36.361 [info] Review+0> Validate state in progress
+2024-10-17 10:48:36.361 [info] Review+0> Validating state...
+2024-10-17 10:48:36.361 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-10-17 10:48:36.361 [info] No GitHub remotes found for folder /home/vscode/progate_path/self_introduction_branch/self_introduction
+2024-10-17 10:48:36.467 [info] Review+0> No matching pull request metadata found locally for current branch branch-a
+2024-10-17 10:48:36.502 [info] Review+0> No matching pull request metadata found on GitHub for current branch branch-a
+2024-10-17 10:51:26.747 [info] Review+0> Validate state in progress
+2024-10-17 10:51:26.747 [info] Review+0> Validating state...
+2024-10-17 10:51:26.747 [info] Repo state for file:///home/vscode/progate_path/self_introduction_branch/self_introduction changed.
+2024-10-17 10:51:26.747 [info] Repo file:///home/vscode/progate_path/self_introduction_branch/self_introduction has already been setup.
+2024-10-17 10:51:26.751 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-10-17 10:51:26.751 [info] No GitHub remotes found for folder /home/vscode/progate_path/self_introduction_branch/self_introduction
+2024-10-17 10:51:26.767 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-17 10:51:26.786 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-17 10:56:00.080 [info] Review+0> Validate state in progress
+2024-10-17 10:56:00.080 [info] Review+0> Validating state...
+2024-10-17 10:56:00.081 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-10-17 10:56:00.081 [info] No GitHub remotes found for folder /home/vscode/progate_path/self_introduction_branch/self_introduction
+2024-10-17 10:56:00.091 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-17 10:56:00.099 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

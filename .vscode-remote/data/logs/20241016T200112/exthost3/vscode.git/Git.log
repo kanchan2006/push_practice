@@ -1,0 +1,15 @@
+2024-10-16 21:03:30.854 [info] [main] ログ レベル: Info
+2024-10-16 21:03:30.854 [info] [main] Git の検証が検出されました: "git"
+2024-10-16 21:03:30.854 [info] [main] "git" から Git "2.46.2" を使用しています
+2024-10-16 21:03:30.854 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-16 21:03:30.854 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-16 21:03:30.854 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 21:03:30.854 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-16 21:03:30.854 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 21:03:30.860 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-16 21:03:30.860 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 21:03:30.869 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-16 21:03:30.869 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 21:03:30.876 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-16 21:03:30.876 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-16 21:03:30.878 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

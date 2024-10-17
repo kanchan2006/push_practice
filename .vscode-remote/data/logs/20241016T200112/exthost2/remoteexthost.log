@@ -1,0 +1,38 @@
+2024-10-16 20:18:11.930 [info] Extension host with pid 9579 started
+2024-10-16 20:18:11.950 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-6ec854bc/vscode.lock': Lock acquired.
+2024-10-16 20:18:12.154 [info] ExtensionService#_doActivateExtension GitHub.codespaces, startup: false, activationEvent: 'onCommand:github.codespaces.activate'
+2024-10-16 20:18:12.155 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-16 20:18:12.156 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: false, activationEvent: '*'
+2024-10-16 20:18:12.156 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+2024-10-16 20:18:12.156 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-10-16 20:18:12.157 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-16 20:18:12.430 [warning] Using default string since no string found in i18n bundle that has the key: Keep Defaults
+2024-10-16 20:18:12.430 [warning] Using default string since no string found in i18n bundle that has the key: Configure Options
+2024-10-16 20:18:12.430 [warning] Using default string since no string found in i18n bundle that has the key: Finish
+2024-10-16 20:18:12.433 [warning] Using default string since no string found in i18n bundle that has the key: Learn More
+2024-10-16 20:18:12.433 [warning] Using default string since no string found in i18n bundle that has the key: Documentation on predefined container definitions
+2024-10-16 20:18:13.159 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-10-16 20:18:13.405 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-16 20:18:13.405 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-16 20:18:14.151 [info] Eager extensions activated
+2024-10-16 20:18:14.152 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 20:18:14.153 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 20:18:14.153 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 20:18:14.153 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 20:18:14.154 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 20:18:14.155 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 20:18:14.155 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 20:18:18.448 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: GitHub.vscode-pull-request-github
+2024-10-16 20:18:19.642 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-16 20:18:19.642 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-16 20:18:19.643 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-16 20:18:19.643 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-16 20:25:53.447 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-10-16 20:26:08.529 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-10-16 20:34:33.790 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2024-10-16 20:34:33.790 [info] ExtensionService#_doActivateExtension pmneo.tsimporter, startup: false, activationEvent: 'onLanguage:typescript'
+2024-10-16 20:34:33.791 [info] ExtensionService#_doActivateExtension Prisma.prisma, startup: false, activationEvent: 'onLanguage:typescript'
+2024-10-16 20:34:33.791 [info] ExtensionService#_doActivateExtension rbbit.typescript-hero, startup: false, activationEvent: 'onLanguage:typescript'
+2024-10-16 21:08:23.315 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-10-16 21:08:23.315 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-6ec854bc/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-16 21:08:23.489 [info] Extension host with pid 9579 exiting with code 0

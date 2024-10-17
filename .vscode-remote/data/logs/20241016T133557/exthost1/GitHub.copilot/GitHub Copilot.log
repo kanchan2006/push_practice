@@ -1,0 +1,10 @@
+2024-10-16 13:37:02.620 [info] [certificates] Removed 1 expired certificates
+2024-10-16 13:37:03.163 [info] [auth] Invalid copilot token: missing token: 403 
+2024-10-16 13:37:04.289 [error] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as kanchan2006.
+    at authShowWarnings (/home/vscode/.vscode-remote/extensions/github.copilot-1.238.0/extension/src/auth.ts:144:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at RX.getCopilotToken (/home/vscode/.vscode-remote/extensions/github.copilot-1.238.0/extension/src/auth.ts:174:33)
+    at attemptAuthentication (/home/vscode/.vscode-remote/extensions/github.copilot-1.238.0/extension/src/auth.ts:58:9) {
+  cause: undefined
+}
+2024-10-16 13:37:04.289 [error] [auth] No access to GitHub Copilot found. You are currently logged in as kanchan2006.

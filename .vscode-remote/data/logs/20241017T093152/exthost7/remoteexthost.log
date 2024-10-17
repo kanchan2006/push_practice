@@ -1,0 +1,39 @@
+2024-10-17 10:48:26.698 [info] Extension host with pid 62084 started
+2024-10-17 10:48:26.698 [error] Error: EEXIST: file already exists, open '/home/vscode/.vscode-remote/data/User/workspaceStorage/-38584be7/vscode.lock'
+2024-10-17 10:48:26.707 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-38584be7/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-17 10:48:26.725 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-38584be7/vscode.lock': The lock does not look stale, elapsed: 39 ms, giving up.
+2024-10-17 10:48:26.730 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-38584be7-1/vscode.lock': Lock acquired.
+2024-10-17 10:48:27.588 [info] ExtensionService#_doActivateExtension GitHub.codespaces, startup: false, activationEvent: 'onCommand:github.codespaces.activate'
+2024-10-17 10:48:27.589 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-17 10:48:27.590 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: false, activationEvent: '*'
+2024-10-17 10:48:27.590 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+2024-10-17 10:48:27.590 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-10-17 10:48:27.591 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-17 10:48:27.591 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-10-17 10:48:27.591 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-10-17 10:48:27.592 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-17 10:48:27.868 [warning] Using default string since no string found in i18n bundle that has the key: Keep Defaults
+2024-10-17 10:48:27.868 [warning] Using default string since no string found in i18n bundle that has the key: Configure Options
+2024-10-17 10:48:27.868 [warning] Using default string since no string found in i18n bundle that has the key: Finish
+2024-10-17 10:48:27.877 [warning] Using default string since no string found in i18n bundle that has the key: Learn More
+2024-10-17 10:48:27.877 [warning] Using default string since no string found in i18n bundle that has the key: Documentation on predefined container definitions
+2024-10-17 10:48:29.832 [error] No bundle location found for extension vscode.markdown-language-features
+2024-10-17 10:48:29.888 [warning] Using default string since no string found in i18n bundle that has the key: Some content has been disabled in this document
+2024-10-17 10:48:29.888 [warning] Using default string since no string found in i18n bundle that has the key: Potentially unsafe or insecure content has been disabled in the Markdown preview. Change the Markdown preview security setting to allow insecure content or enable scripts
+2024-10-17 10:48:29.888 [warning] Using default string since no string found in i18n bundle that has the key: Content Disabled Security Warning
+2024-10-17 10:48:29.899 [warning] Using default string since no string found in i18n bundle that has the key: Markdown Language Server
+2024-10-17 10:48:30.194 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-17 10:48:30.194 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-17 10:48:30.321 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-10-17 10:48:31.154 [info] Eager extensions activated
+2024-10-17 10:48:31.154 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 10:48:31.154 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 10:48:31.154 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 10:48:31.155 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 10:48:31.155 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 10:48:31.155 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 10:48:31.155 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-10-17 10:48:33.455 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-10-17 10:48:36.032 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: GitHub.vscode-pull-request-github
+2024-10-17 10:51:19.127 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-10-17 11:03:53.289 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'

@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint:check": "eslint --ext .ts .",
+    "lint:fix": "eslint --ext .ts . --fix",
+    "format:check": "prettier --check '**/*.ts'",
+    "format:fix": "prettier --write '**/*.ts'",
+    "test": "jest",
+    "test:create_file": "npm run test -- -t create_file",
+    "test:rename_file": "npm run test -- -t rename_file",
+    "test:delete_file": "npm run test -- -t delete_file",
+    "test:multi_cursor": "npm run test -- -t multi_cursor",
+    "test:search_and_replace": "npm run test -- -t search_and_replace/",
+    "test:search_and_replace_all": "npm run test -- -t search_and_replace_all",
+    "test:comment_out": "npm run test -- -t comment_out",
+    "test:quick_fix": "npm run test -- -t quick_fix",
+    "test:rename_symbol": "npm run test -- -t rename_symbol"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@types/node": "18.11.19",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.7.1",
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "5.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

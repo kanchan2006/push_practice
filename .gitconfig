@@ -1,0 +1,7 @@
+[user]
+	name = kanna
+	email = para2006sk@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait

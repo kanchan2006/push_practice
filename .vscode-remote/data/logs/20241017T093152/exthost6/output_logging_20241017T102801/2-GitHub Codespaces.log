@@ -1,0 +1,372 @@
+[Client I] GitHub Codespaces version 1.17.3
+[Client I] isRunningInWeb: "true"
+[Client V] Initializing authentication
+[API I] Successfully signed in
+[Client:extension:8e6f I] initializing
+[Client:extension:8e6f:resolver I] created with protocol "codespaces"
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace performance info
+[DevContainerJsonSupport I] Initializing devcontainer.json support package
+[DevContainerJsonSupport V] [2024-10-17T10:28:07.755Z] Internal initialization of dev container support package...
+
+[Client I] Connecting to current codespace: fictional-telegram-jj4vq544g4wj3pgqr
+[Command:Connect I] Decorator starting: ErrorNotification
+[Command:Connect I] Decorator starting: Telemetry
+[Client I] Jupyter API registered? false
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fictional-telegram-jj4vq544g4wj3pgqr"
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:8e6f:resolver:resolve:1 I] resolve retry #3
+[Client:extension:8e6f:resolver:resolve:1 I] resolving "codespaces+fictional-telegram-jj4vq544g4wj3pgqr"
+[Client:extension:8e6f:resolver:resolve:1 I] codespace: "fictional-telegram-jj4vq544g4wj3pgqr", fetching details
+[Client:extension:8e6f:resolver:resolve:1:fetch-codespace-info I] fetching codespace details for "fictional-telegram-jj4vq544g4wj3pgqr"
+[Client:extension:8e6f:resolver:resolve:1:fetch-codespace-info I] signed in, getting the details
+[Client:extension:8e6f:resolver:resolve:1:fetch-codespace-info I] fetching codespace "fictional-telegram-jj4vq544g4wj3pgqr" (retries left: 2)
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/fictional-telegram-jj4vq544g4wj3pgqr"
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:8e6f:resolver I] successfully fetched codespace details> object #0: {
+  "id": 20967270,
+  "name": "<36:<redacted>>",
+  "environment_id": "7802eeb1-b26f-44d3-883b-07cb56ca87f3",
+  "owner": "<undefined:<redacted>>",
+  "billable_owner": {
+    "login": "kanchan2006",
+    "id": 178081506,
+    "node_id": "U_kgDOCp1O4g",
+    "avatar_url": "https://avatars.githubusercontent.com/u/178081506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kanchan2006",
+    "html_url": "https://github.com/kanchan2006",
+    "followers_url": "https://api.github.com/users/kanchan2006/followers",
+    "following_url": "https://api.github.com/users/kanchan2006/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kanchan2006/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kanchan2006/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kanchan2006/subscriptions",
+    "organizations_url": "https://api.github.com/users/kanchan2006/orgs",
+    "repos_url": "https://api.github.com/users/kanchan2006/repos",
+    "events_url": "https://api.github.com/users/kanchan2006/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kanchan2006/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "repository": {
+    "id": 587537775,
+    "node_id": "R_kgDOIwUdbw",
+    "name": "<22:<redacted>>",
+    "full_name": "Progate/path-study-environment",
+    "private": false,
+    "owner": "<undefined:<redacted>>",
+    "html_url": "https://github.com/Progate/path-study-environment",
+    "description": null,
+    "fork": false,
+    "url": "https://api.github.com/repos/Progate/path-study-environment",
+    "forks_url": "https://api.github.com/repos/Progate/path-study-environment/forks",
+    "keys_url": "https://api.github.com/repos/Progate/path-study-environment/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/Progate/path-study-environment/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/Progate/path-study-environment/teams",
+    "hooks_url": "https://api.github.com/repos/Progate/path-study-environment/hooks",
+    "issue_events_url": "https://api.github.com/repos/Progate/path-study-environment/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/Progate/path-study-environment/events",
+    "assignees_url": "https://api.github.com/repos/Progate/path-study-environment/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/Progate/path-study-environment/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/Progate/path-study-environment/tags",
+    "blobs_url": "https://api.github.com/repos/Progate/path-study-environment/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/Progate/path-study-environment/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/Progate/path-study-environment/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/Progate/path-study-environment/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/Progate/path-study-environment/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/Progate/path-study-environment/languages",
+    "stargazers_url": "https://api.github.com/repos/Progate/path-study-environment/stargazers",
+    "contributors_url": "https://api.github.com/repos/Progate/path-study-environment/contributors",
+    "subscribers_url": "https://api.github.com/repos/Progate/path-study-environment/subscribers",
+    "subscription_url": "https://api.github.com/repos/Progate/path-study-environment/subscription",
+    "commits_url": "https://api.github.com/repos/Progate/path-study-environment/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/Progate/path-study-environment/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/Progate/path-study-environment/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/Progate/path-study-environment/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/Progate/path-study-environment/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/Progate/path-study-environment/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/Progate/path-study-environment/merges",
+    "archive_url": "https://api.github.com/repos/Progate/path-study-environment/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/Progate/path-study-environment/downloads",
+    "issues_url": "https://api.github.com/repos/Progate/path-study-environment/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/Progate/path-study-environment/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/Progate/path-study-environment/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/Progate/path-study-environment/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/Progate/path-study-environment/labels{/name}",
+    "releases_url": "https://api.github.com/repos/Progate/path-study-environment/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/Progate/path-study-environment/deployments"
+  },
+  "machine": {
+    "name": "<14:<redacted>>",
+    "display_name": "2 cores, 8 GB RAM, 32 GB storage",
+    "operating_system": "linux",
+    "storage_in_bytes": 34359738368,
+    "memory_in_bytes": 8589934592,
+    "cpus": 2,
+    "prebuild_availability": null
+  },
+  "prebuild": null,
+  "created_at": "2024-10-16T21:37:33+09:00",
+  "updated_at": "2024-10-17T19:28:11+09:00",
+  "last_used_at": "2024-10-17T19:27:41+09:00",
+  "state": "Available",
+  "url": "https://api.github.com/user/codespaces/fictional-telegram-jj4vq544g4wj3pgqr",
+  "git_status": {
+    "ahead": 0,
+    "behind": 0,
+    "has_unpushed_changes": false,
+    "has_uncommitted_changes": false,
+    "ref": "main"
+  },
+  "location": "SouthEastAsia",
+  "idle_timeout_minutes": 30,
+  "web_url": "https://fictional-telegram-jj4vq544g4wj3pgqr.github.dev",
+  "machines_url": "https://api.github.com/user/codespaces/fictional-telegram-jj4vq544g4wj3pgqr/machines",
+  "start_url": "https://api.github.com/user/codespaces/fictional-telegram-jj4vq544g4wj3pgqr/start",
+  "stop_url": "https://api.github.com/user/codespaces/fictional-telegram-jj4vq544g4wj3pgqr/stop",
+  "pulls_url": null,
+  "recent_folders": [
+    "/home/vscode/progate_path/self_introduction_commit/self_introduction",
+    "/home/vscode/progate_path/vscode_tutorial_get_starting_with_vscode/vscode_tutorial",
+    "/home/vscode"
+  ],
+  "runtime_constraints": {
+    "allowed_port_privacy_settings": [
+      "private",
+      "public"
+    ]
+  },
+  "connection": {
+    "sessionPath": "/home/vscode",
+    "tunnelProperties": {
+      "tunnelId": "swift-ocean-lr5n2ww",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<389:<redacted>>",
+      "managePortsAccessToken": "<396:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "container_id": "a310bb1886916208a76964fdcd258c8faf3d53a65464d95964ea7f68f5847c00",
+  "display_name": "fictional telegram",
+  "devcontainer_path": ".devcontainer/devcontainer.json",
+  "pending_operation": false,
+  "feature_flags": {
+    "developer": false,
+    "detailedActivityMonitor": false,
+    "vscodeAccountSwitching": false,
+    "enableSmbDiagnosticContinuousMonitoring": false,
+    "enableSmbDiagnosticOnAnomalyMonitoring": false,
+    "useEarlyWorkbenchWebClient": true,
+    "useCoiWebClient": false,
+    "remapUserNamespace": false,
+    "removeConnectRetriesWebClient": true,
+    "storageV2ExhaustiveValidation": false,
+    "forcePushShutdownTelemetry": true,
+    "useNewJupyterApi": true,
+    "improvedWarmupContainerReuse": true,
+    "storageV2ComprehensiveDiagnosticsCollection": false,
+    "usingCopilotWorkspaceConfig": true,
+    "copilotWorkspace": false,
+    "Basis": true,
+    "Skuheapscaling": true,
+    "CacheIde": true,
+    "Developer": false,
+    "Eap": false
+  },
+  "retention_period_minutes": 43200,
+  "retention_expires_at": null,
+  "template": null,
+  "publish_url": null
+}
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:8e6f:resolver:resolve:1:check-codespace-state I] codespace fictional-telegram-jj4vq544g4wj3pgqr (id: 7802eeb1-b26f-44d3-883b-07cb56ca87f3) is in the "Default" state
+[Client:extension:8e6f:resolver:resolve:1:check-codespace-state I] noop
+[Client:extension:8e6f:resolver I] Initializing RPC client
+[Client:extension:8e6f:resolver I] Running in web, using unix socket for communication
+[Client:extension:8e6f:resolver I] Initializing Node-based codespace host service client
+[Client:extension:8e6f:resolver I] Initializing Node-based VS Code server host service client
+[Client:extension:8e6f:resolver I] Initializing Node-based Jupyter server host service client
+[Client:extension:8e6f:resolver:resolve:1:check-codespace-state I] vscode connection options: > object #0: {
+  "environmentId": "7802eeb1-b26f-44d3-883b-07cb56ca87f3",
+  "vsCodeCommit": "384ff7382de624fb94dbaf6da11977bba1ecd427",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "telemetry": true
+}
+[RemoteExplorer I] Updating codespace details
+[Client:extension:8e6f:resolver I] Executed start-remote-server using gRPC
+[Client:extension:8e6f:resolver:resolve:1 I] vscode server remote port: "34405", local port: "undefined"}
+[Client V] connect duration: 4454 ms
+[Client:extension:8e6f:resolver:resolve:1 I] Progress: Done
+[Client:extension:8e6f:resolver I] Subscribed to event stream
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] launching background configuration tasks
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] Running in web, starting post attach command listener without disposable
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: addEnvironmentConfiguredEventCallback()
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] no max idle timeout notice
+[Client:extension:8e6f:resolver:resolve:1:background-tasks V] checking correctness of the codespace session path> object #0: [
+  {
+    "uri": {
+      "$mid": 1,
+      "fsPath": "/home/vscode/progate_path/self_introduction_branch/self_introduction",
+      "external": "file:///home/vscode/progate_path/self_introduction_branch/self_introduction",
+      "path": "/home/vscode/progate_path/self_introduction_branch/self_introduction",
+      "scheme": "file"
+    },
+    "name": "<17:<redacted>>",
+    "index": 0
+  }
+]
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] session path correction - progressType: "0"
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] Running in web, starting dev container change event listener without disposable
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] Running in web, starting secrets updated event listener without disposable
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] Running in web, starting codespace stopping event listener without disposable
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] starting activity monitor, isRunningInWeb: "true"
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] isRunningInWeb: true
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] starting activity monitor
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] Running in web, starting user notification event listener without disposable
+[Command:Connect I] Command [Connect to Codespace]: Connect to Codespace Success (6440ms)
+[Command:Connect I] Decorator finishing: Telemetry. Duration: 1ms (0 + 1)
+[Command:Connect I] Decorator finishing: ErrorNotification. Duration: 43ms (0 + 43)
+[Client:extension:8e6f:resolver I] Received event: Subscribed
+[Client:extension:8e6f:resolver I] Client 432e6127-42d0-4a9b-be5f-dcc73eb570e9 subscribed to event stream
+[Client:extension:8e6f:resolver I] Received event: EnvironmentConfigured
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: handleEnvironmentConfiguredEvent()
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] GetRemotePid: Echoing $PPID to /tmp/codespace_pids/.pid-4612cc65-a45c-44db-833c-c413c71eb0dd...
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] GetRemotePid: Start polling for existance of PID file at file:///tmp/codespace_pids/.pid-4612cc65-a45c-44db-833c-c413c71eb0dd took 1 ms...
+[Performance I] Executed get-container-persisted-folder using gRPC
+[ResourceUsage I] Executed get-container-persisted-folder using gRPC
+[ResourceUsage V] container folder path: "/workspaces/.codespaces/.persistedshare"
+[ResourceUsage V] shared folder path: "/workspaces/.codespaces/shared/resource-usage.json"
+[ResourceUsage V] shared file path: "/workspaces/.codespaces/shared/resource-usage.json"
+[ResourceUsage I] Starting monitor
+[ResourceUsage I] Checking if the codespace connection exists
+[ResourceUsage I] Running in web, starting monitor without disposable
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] Executed get-container-persisted-folder using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks V] container folder path: "/workspaces/.codespaces/.persistedshare"
+[Client:extension:8e6f:resolver:resolve:1:background-tasks V] shared folder path: "/workspaces/.codespaces/shared/postCreateOutput.json"
+[Client:extension:8e6f:resolver:resolve:1:background-tasks V] shared file path: "/workspaces/.codespaces/shared/postCreateOutput.json"
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] Executed is-recovery-container using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks V] not in recovery container
+[Client:extension:8e6f:resolver:resolve:1:background-tasks I] Executed configure-environment using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:openDefaultFiles I] Skipping openFiles in the web because it is handled by the embedder
+[Performance I] Starting monitor
+[Performance I] Checking if the codespace connection exists
+[Performance I] Running in web, starting monitor without disposable
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: commandsKey: codespaces.1320.runningPostAttachCommands
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: Running /bin/bash ~/environment/.devcontainer/postAttachCommand.sh in terminal Codespaces: /bin/bash ~/environment/.devcontainer/postAttachCommand.sh
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace details
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: Added Codespaces: /bin/bash ~/environment/.devcontainer/postAttachCommand.sh to codespaces.1320.runningPostAttachCommands
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:8e6f:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:8e6f:resolver V] disposing reason: 'vscode disposed the resolver', disposing 1 objects
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+  at Function.e (file:///vscode/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:9857)
+  at Object.readFile (file:///vscode/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:7584)
+  at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+  at Function.e (file:///vscode/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:9857)
+  at Object.readFile (file:///vscode/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:7584)
+  at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+  at Function.e (file:///vscode/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:9857)
+  at Object.readFile (file:///vscode/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:7584)
+  at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+  at Function.e (file:///vscode/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:9857)
+  at Object.readFile (file:///vscode/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:7584)
+  at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+  at Function.e (file:///vscode/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:9857)
+  at Object.readFile (file:///vscode/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/out/vs/workbench/api/node/extensionHostProcess.js:114:7584)
+  at processTicksAndRejections (node:internal/process/task_queues:95:5)

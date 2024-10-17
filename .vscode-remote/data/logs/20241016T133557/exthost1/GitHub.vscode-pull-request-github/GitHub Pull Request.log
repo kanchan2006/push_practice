@@ -1,0 +1,33 @@
+2024-10-16 13:36:18.501 [warning] /home/vscode/.ssh/config: ENOENT: no such file or directory, open '/home/vscode/.ssh/config'
+2024-10-16 13:36:18.501 [info] Activation> Extension version: 0.98.0
+2024-10-16 13:36:20.140 [info] Looking for git repository
+2024-10-16 13:36:20.141 [info] Found 0 repositories during activation
+2024-10-16 13:36:20.141 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-16 13:36:20.188 [info] Registering git provider
+2024-10-16 13:36:20.194 [info] Review+0> Validate state in progress
+2024-10-16 13:36:20.194 [info] Review+0> Validating state...
+2024-10-16 13:36:20.194 [info] Review+1> Validate state in progress
+2024-10-16 13:36:20.195 [info] Review+1> Validating state...
+2024-10-16 13:36:20.195 [info] Review+2> Validate state in progress
+2024-10-16 13:36:20.195 [info] Review+2> Validating state...
+2024-10-16 13:36:20.469 [info] Repo state for file:///home/vscode/environment changed.
+2024-10-16 13:36:20.469 [info] Repo file:///home/vscode/environment has already been setup.
+2024-10-16 13:36:20.571 [info] Found GitHub remote for folder /home/vscode/environment
+2024-10-16 13:36:20.572 [info] Found GitHub remote for folder /home/vscode/.oh-my-zsh
+2024-10-16 13:36:20.572 [info] Found GitHub remote for folder /home/vscode/.nodenv
+2024-10-16 13:36:27.804 [info] Trying to use globalState for assignableUsers.
+2024-10-16 13:36:33.338 [info] Trying to use globalState for assignableUsers.
+2024-10-16 13:36:36.035 [info] Trying to use globalState for assignableUsers.
+2024-10-16 13:36:42.836 [info] Review+2> No matching pull request metadata found locally for current branch main
+2024-10-16 13:36:43.454 [info] Review+1> No matching pull request metadata found locally for current branch master
+2024-10-16 13:36:43.527 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-16 13:36:44.487 [info] Repo state for file:///home/vscode/.oh-my-zsh changed.
+2024-10-16 13:36:44.487 [info] Repo file:///home/vscode/.oh-my-zsh has already been setup.
+2024-10-16 13:36:44.516 [info] GlobalState does not exist for assignableUsers.
+2024-10-16 13:36:44.848 [info] GlobalState does not exist for assignableUsers.
+2024-10-16 13:36:45.178 [info] GlobalState does not exist for assignableUsers.
+2024-10-16 13:36:46.363 [info] Repo state for file:///home/vscode/.nodenv changed.
+2024-10-16 13:36:46.363 [info] Repo file:///home/vscode/.nodenv has already been setup.
+2024-10-16 13:36:46.539 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2024-10-16 13:36:46.565 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-16 13:36:46.903 [info] Review+1> No matching pull request metadata found on GitHub for current branch master

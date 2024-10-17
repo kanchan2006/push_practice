@@ -1,0 +1,46 @@
+2024-10-16 21:50:22.537 [info] Extension host with pid 1024 started
+2024-10-16 21:50:22.538 [error] Error: EEXIST: file already exists, open '/home/vscode/.vscode-remote/data/User/workspaceStorage/-6ec854bc/vscode.lock'
+2024-10-16 21:50:22.546 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-6ec854bc/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-16 21:50:22.552 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-6ec854bc/vscode.lock': The lock does not look stale, elapsed: 768 ms, giving up.
+2024-10-16 21:50:22.561 [error] Error: EEXIST: file already exists, open '/home/vscode/.vscode-remote/data/User/workspaceStorage/-6ec854bc-1/vscode.lock'
+2024-10-16 21:50:22.606 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-6ec854bc-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-16 21:50:22.614 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-6ec854bc-1/vscode.lock': The pid 43522 appears to be gone.
+2024-10-16 21:50:22.614 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-6ec854bc-1/vscode.lock': Deleting a stale lock.
+2024-10-16 21:50:22.619 [info] Lock '/home/vscode/.vscode-remote/data/User/workspaceStorage/-6ec854bc-1/vscode.lock': Lock acquired.
+2024-10-16 21:50:34.036 [info] ExtensionService#_doActivateExtension GitHub.codespaces, startup: false, activationEvent: 'onCommand:github.codespaces.activate'
+2024-10-16 21:50:34.038 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-16 21:50:34.038 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: false, activationEvent: '*'
+2024-10-16 21:50:34.038 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+2024-10-16 21:50:34.039 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-10-16 21:50:34.040 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-16 21:50:34.040 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-10-16 21:50:34.040 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-16 21:50:35.652 [warning] Using default string since no string found in i18n bundle that has the key: Keep Defaults
+2024-10-16 21:50:35.652 [warning] Using default string since no string found in i18n bundle that has the key: Configure Options
+2024-10-16 21:50:35.652 [warning] Using default string since no string found in i18n bundle that has the key: Finish
+2024-10-16 21:50:35.657 [warning] Using default string since no string found in i18n bundle that has the key: Learn More
+2024-10-16 21:50:35.657 [warning] Using default string since no string found in i18n bundle that has the key: Documentation on predefined container definitions
+2024-10-16 21:50:36.709 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-10-16 21:50:42.485 [error] No bundle location found for extension vscode.git-base
+2024-10-16 21:50:42.493 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-16 21:50:42.493 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-16 21:50:42.631 [error] No bundle location found for extension vscode.tunnel-forwarding
+2024-10-16 21:50:42.631 [error] No bundle location found for extension vscode.github-authentication
+2024-10-16 21:50:42.631 [error] No bundle location found for extension vscode.emmet
+2024-10-16 21:50:42.664 [warning] Using default string since no string found in i18n bundle that has the key: url handler
+2024-10-16 21:50:42.664 [warning] Using default string since no string found in i18n bundle that has the key: local server
+2024-10-16 21:50:42.664 [warning] Using default string since no string found in i18n bundle that has the key: device code
+2024-10-16 21:50:42.664 [warning] Using default string since no string found in i18n bundle that has the key: personal access token
+2024-10-16 21:50:42.768 [error] No bundle location found for extension vscode.npm
+2024-10-16 21:50:46.709 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 21:50:46.710 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 21:50:46.710 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 21:50:46.710 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 21:50:46.710 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 21:50:46.711 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 21:50:46.711 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 21:51:21.537 [info] Eager extensions activated
+2024-10-16 21:51:36.784 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-16 21:51:36.784 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-16 21:51:36.785 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-16 21:51:40.445 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: GitHub.vscode-pull-request-github

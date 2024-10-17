@@ -1,0 +1,22 @@
+2024-10-17 09:32:31.160 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args []
+2024-10-17 09:32:32.080 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args []
+2024-10-17 09:39:42.012 [info] Expanding terminal instance, old id -6ec854bc-2 -> new id undefined
+2024-10-17 09:39:42.013 [info] Expanding terminal instance, old id -6ec854bc-6 -> new id undefined
+2024-10-17 09:40:02.310 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args []
+2024-10-17 09:57:47.354 [info] Expanding terminal instance, old id -6ec854bc-9 -> new id undefined
+2024-10-17 09:57:55.521 [warning] Persistent process "9": Process had no disconnect runners but was an orphan
+2024-10-17 09:57:55.521 [info] Persistent process reconnection "9"
+2024-10-17 09:57:55.982 [info] Persistent process "9": Replaying 4256 chars and 1 size events
+2024-10-17 09:58:04.993 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args []
+2024-10-17 10:03:02.414 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args []
+2024-10-17 10:28:15.215 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args []
+2024-10-17 10:48:16.866 [info] Expanding terminal instance, old id -38584be7-21 -> new id undefined
+2024-10-17 10:48:16.867 [info] Expanding terminal instance, old id -38584be7-20 -> new id undefined
+2024-10-17 10:48:30.802 [warning] Persistent process "21": Process had no disconnect runners but was an orphan
+2024-10-17 10:48:30.802 [info] Persistent process reconnection "21"
+2024-10-17 10:48:30.802 [warning] Persistent process "20": Process had no disconnect runners but was an orphan
+2024-10-17 10:48:30.802 [info] Persistent process reconnection "20"
+2024-10-17 10:48:31.250 [info] Persistent process "21": Replaying 103 chars and 1 size events
+2024-10-17 10:48:31.276 [info] Persistent process "20": Replaying 5903 chars and 1 size events
+2024-10-17 10:48:40.483 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args []
+2024-10-17 11:09:01.040 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args []
